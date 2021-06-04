@@ -103,6 +103,7 @@ body, input, select, textarea {
     body, input, select, textarea, p {
       font-size: 11pt; 
     } 
+   
     }
   @media screen and (max-width: 1280px) {
     body, input, select, textarea {
