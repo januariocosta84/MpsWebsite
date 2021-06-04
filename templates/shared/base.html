@@ -1,0 +1,98 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE HTML>
+<!--
+This site is developed by Januario Costa
+-->
+<html>
+	<head>
+		<title>Major Project Secretariat</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'assets/bootstrap_css/bootstrap.min.css' %}">
+		<link rel="stylesheet" href="{% static 'assets/bootstrap_css/bootstrap.css'%}">
+		<link rel="stylesheet" href="{% static 'assets/css/main.css' %}" />
+		<link rel="stylesheet" href="{% static 'assets/css/costume.css'%}">
+	</head>
+	<body class="is-preload">
+
+        <!-- Wrapper -->
+        {% block body %}
+			<div id="wrapper">
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							{% block header%}
+							<section class="section-language">
+                                {% get_current_language as LANGUAGE_CODE %}
+                                {% get_available_languages as LANGUAGES %}
+                                {% get_language_info_list for LANGUAGES as languages %}
+                                {% for language in languages %}
+                                {%if language.code == 'tt'%}
+                                <a href="/{{ language.code }}{{ request.get_full_path|slice:'3:' }}"><img src="/media/static/lingua/tl.png" alt="">TL </a>
+                                {% elif language.code == 'en'%}
+                                <a href="/{{ language.code }}{{ request.get_full_path|slice:'3:' }}"><img src="/media/static/lingua/en.png" alt="">EN  </a>
+                                {% else %}
+                                <a href="/{{ language.code }}{{ request.get_full_path|slice:'3:' }}"><img src="/media/static/lingua/pt-pt.png" alt=""> PT </a>
+                                {% endif %}
+                                {% endfor %}
+                            </section>
+							<!-- Header -->
+								<header id="header">
+									<a href="{% url 'home'%}" class="logo"><strong>Portal</strong> {%trans 'Major Project Secretariat'%}</a>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+									</ul>
+                                </header>
+                            {% endblock %}
+								<div class="container">
+									<!--Carousel and Banner Section-->
+									{% block carousel_banner_section%}
+
+									{% endblock %}
+								</div>
+																
+															
+
+							<!-- Section -->
+
+							{% block section%}
+							
+							{% endblock %}
+
+							
+
+						</div>
+						
+					</div>
+				
+                  <!-- Section -->
+							 <!-- Sidebar -->
+						{% block sidebar%}
+							 {% include 'shared/sidebar.html'%}
+						 {% endblock %}
+
+					{% block footer%}
+				
+					{% endblock%}					 
+            </div>
+        {% endblock%} 
+          
+
+		<!-- Scripts -->
+			<script src="{%static 'assets/js/jquery.min.js'%}"></script>
+			<script src="{%static 'assets/bootstrap_js/bootstrap.min.js'%}"></script>
+			<script src="{%static 'assets/js/browser.min.js'%}"></script>
+			<script src="{%static 'assets/js/breakpoints.min.js'%}"></script>
+			<script src="{%static 'assets/js/util.js'%}"></script>
+			<script src="{%static 'assets/js/main.js'%}"></script>
+
+	</body>
+</html>
+
+<!--Original Code-->

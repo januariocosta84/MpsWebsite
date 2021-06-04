@@ -1,0 +1,18 @@
+{% load i18n %}
+<section>
+        <header class="major">
+            <h2>{%trans  'All Events about Secretariat' %}</h2>
+        </header>
+        <div class="posts">
+                {% for noticia in noticias %} 
+            <article>
+                <a href="events/{{noticia.slug}}" class="image"><img src="{{noticia.image.url}}" alt="" /></a>
+                <h3>{{noticia.data|date:"d/m/Y"}}|</h3>
+                <p>{{noticia.title}}</p>
+                <ul class="actions">
+                    <li><a href="events/{{noticia.slug}}" class="button">More</a></li>
+                </ul>
+            </article>
+            {% endfor %}
+        </div>
+</section>

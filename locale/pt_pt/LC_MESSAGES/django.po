@@ -1,0 +1,215 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-02 00:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\templates\mpsapps\carrousel.html:8 .\templates\shared\carrousel.html:7
+msgid "Suai Airport"
+msgstr "Aeroporto de Suai"
+
+#: .\templates\mpsapps\carrousel.html:10 .\templates\mpsapps\carrousel.html:18
+#: .\templates\mpsapps\carrousel.html:26 .\templates\shared\carrousel.html:9
+#: .\templates\shared\carrousel.html:17 .\templates\shared\carrousel.html:25
+msgid "Read More"
+msgstr "Ler Mais"
+
+#: .\templates\mpsapps\carrousel.html:16 .\templates\shared\carrousel.html:15
+msgid "Hera Power Station"
+msgstr "central eléctrica Hera"
+
+#: .\templates\mpsapps\carrousel.html:24 .\templates\shared\carrousel.html:23
+msgid "Data Center"
+msgstr "Centro de dados"
+
+#: .\templates\mpsapps\carrousel.html:32 .\templates\shared\carrousel.html:31
+msgid "Previous"
+msgstr "Anterior"
+
+#: .\templates\mpsapps\carrousel.html:36 .\templates\shared\carrousel.html:35
+msgid "Next"
+msgstr "Próxima"
+
+#: .\templates\mpsapps\jumbotron.html:7 .\templates\shared\jumbotron.html:7
+msgid "Information and Announcement"
+msgstr "Informação e Anúncio"
+
+#: .\templates\mpsapps\portfolio.html:5
+#, fuzzy
+#| msgid "programa"
+msgid "Programs"
+msgstr "Programa"
+
+#: .\templates\mpsapps\portfolio.html:7
+msgid ""
+"The IF manages 22 programs which are aligned to SDP and SDG goals and "
+"priorities.The Government funds the IF to execute the financing of projects "
+"from each program"
+msgstr ""
+"O FI toma conta 22 programas do FI que estão alinhados com as prioridades e "
+"os objetivos do PED e SDG. O FI utiliza o orçamento alocado para pagar os "
+"projetos de cada programa"
+
+#: .\templates\mpsapps\portfolio.html:13
+msgid "ROADS"
+msgstr "ESTRADAS"
+
+#: .\templates\mpsapps\portfolio.html:14
+msgid ""
+"Improvements of the Timor-Leste's road network is one of the priorities to "
+"diversify the economy"
+msgstr ""
+"A melhoria da rede rodoviária ou estrada de Timor-Leste é uma das "
+"prioridades para diversificar a economia"
+
+#: .\templates\mpsapps\portfolio.html:15
+msgid "AIRPORTS"
+msgstr "AEROPORTOS"
+
+#: .\templates\mpsapps\portfolio.html:16
+msgid "Connecting Timor-Leste to the world is crucial for the economic growth"
+msgstr ""
+"A melhoria da rede rodoviária ou estrada de Timor-Leste é uma das "
+"prioridades para diversificar a economia"
+
+#: .\templates\mpsapps\portfolio.html:17
+msgid "BRIDGES"
+msgstr "PONTES"
+
+#: .\templates\mpsapps\portfolio.html:18
+msgid ""
+"One of the programs with an intensive investment and as an integral part in "
+"improving the road network"
+msgstr ""
+"Um dos programas com investimentos intensivos e como parte integrante da "
+"melhoria da rede rodoviária"
+
+#: .\templates\mpsapps\programas.html:7
+msgid "Page is Under Construction"
+msgstr "Página está em Construção"
+
+#: .\templates\mpsapps\programas.html:10
+msgid "Page is Under Construction!"
+msgstr "Página está em Construção!"
+
+#: .\templates\mpsapps\underconstruction.html:4
+msgid "Welcome to my site."
+msgstr "Bem vindo mai hau nia website"
+
+#: .\templates\shared\base.html:47 .\templates\shared\footer.html:9
+#: .\templates\shared\navbar.html:4
+msgid "Major Project Secretariat"
+msgstr "Secretariado dos grande Projetos"
+
+#: .\templates\shared\base.html:71
+msgid "Secretariat Services Events"
+msgstr "Eventos sobre os servicos do secretariado"
+
+#: .\templates\shared\footer.html:7
+#, fuzzy
+#| msgid "Contacto"
+msgid "Our Contact"
+msgstr "O Nosso Contacto"
+
+#: .\templates\shared\footer.html:28
+msgid "Quick Links"
+msgstr "Link Fácil"
+
+#: .\templates\shared\footer.html:33
+msgid "Goverment"
+msgstr "Governo"
+
+#: .\templates\shared\footer.html:37
+msgid "Career"
+msgstr "Carreira"
+
+#: .\templates\shared\footer.html:38
+#, fuzzy
+#| msgid "Contacto"
+msgid "Contact Us"
+msgstr "Contacto"
+
+#: .\templates\shared\footer.html:44
+msgid "References"
+msgstr "Referência"
+
+#: .\templates\shared\footer.html:54
+msgid "FS Guideline"
+msgstr "Guião do Estudo de Viabilidade"
+
+#: .\templates\shared\navbar.html:11 .\templates\shared\sidebar.html:20
+msgid "Home"
+msgstr "Home"
+
+#: .\templates\shared\navbar.html:17 .\templates\shared\sidebar.html:22
+msgid " About"
+msgstr "Sobre"
+
+#: .\templates\shared\navbar.html:20
+#, fuzzy
+#| msgid "secretariado"
+msgid "Secreatariat"
+msgstr "Secretariado"
+
+#: .\templates\shared\navbar.html:21 .\templates\shared\sidebar.html:25
+msgid "Fund"
+msgstr "Fundo"
+
+#: .\templates\shared\navbar.html:28 .\templates\shared\sidebar.html:28
+msgid "Team"
+msgstr "Equipa"
+
+#: .\templates\shared\navbar.html:36 .\templates\shared\sidebar.html:32
+msgid "Payment Process"
+msgstr "Processo Pagamento"
+
+#: .\templates\shared\navbar.html:37 .\templates\shared\sidebar.html:33
+msgid "Visibility Study"
+msgstr "Estudo Viabilidade"
+
+#: .\templates\shared\navbar.html:38 .\templates\shared\sidebar.html:34
+msgid "Project Appraisal"
+msgstr "Avaliação de Projetos"
+
+#: .\templates\shared\navbar.html:39 .\templates\shared\sidebar.html:35
+#, fuzzy
+#| msgid "programa"
+msgid "Program"
+msgstr "Programa"
+
+#: .\templates\shared\navbar.html:40 .\templates\shared\sidebar.html:36
+msgid "Quarter Report"
+msgstr "Relatorio Trimestral"
+
+#: .\templates\shared\navbar.html:46 .\templates\shared\sidebar.html:39
+#, fuzzy
+#| msgid "Contacto"
+msgid "Contact"
+msgstr "Contacto"
+
+#: .\templates\shared\sidebar.html:24
+#, fuzzy
+#| msgid "secretariado"
+msgid "Secretariat"
+msgstr "Secretariado"
+
+#~ msgid "All Events about Secretariat"
+#~ msgstr "Os  Eventos Sobre Secretariado"
+
+#, fuzzy
+#~| msgid "Major Project Secretariat"
+#~ msgid "Home- Major project Secretariat"
+#~ msgstr "Home - Secretariado dos grande Projetos"

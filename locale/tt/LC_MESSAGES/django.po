@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-30 23:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\templates\mpsapps\carrousel.html:8
+msgid "Suai Airport"
+msgstr "Aeroportu Suai"
+
+#: .\templates\mpsapps\carrousel.html:10 .\templates\mpsapps\carrousel.html:18
+#: .\templates\mpsapps\carrousel.html:26
+msgid "Read More"
+msgstr "Le Liu Tan"
+
+#: .\templates\mpsapps\carrousel.html:16
+msgid "Hera Power Station"
+msgstr "Sentral Electrika Hera"
+
+#: .\templates\mpsapps\carrousel.html:24
+msgid "Data Center"
+msgstr "Sentro Dados"
+
+#: .\templates\mpsapps\carrousel.html:32
+msgid "Previous"
+msgstr "Ba kotuk"
+
+#: .\templates\mpsapps\carrousel.html:36
+msgid "Next"
+msgstr "Ba Oin"
+
+#: .\templates\mpsapps\home.html:23
+msgid "All Events about Secretariat"
+msgstr "Eventos sira kona ba Secretariado"
+
+#: .\templates\mpsapps\jumbotron.html:7
+msgid "Information and Announcement"
+msgstr "Informasaun No Anunsiu sira"
+
+#: .\templates\mpsapps\portfolio.html:5
+#, fuzzy
+#| msgid "Program"
+msgid "Programs"
+msgstr "Programa"
+
+#: .\templates\mpsapps\portfolio.html:7
+msgid ""
+"The IF manages 22 programs which are aligned to SDP and SDG goals and "
+"priorities.The Government funds the IF to execute the financing of projects "
+"from each program"
+msgstr ""
+"FI iha programa hamutuk 22 ne'ebé aliña tuir ho prioridade no objetivu husi "
+"PED no SDG sira nian. FI utiliza orsamentu alokadu ne'e hodi selu projetu "
+"sira husi kada programa"
+
+#: .\templates\mpsapps\portfolio.html:13
+msgid "ROADS"
+msgstr "DALAN"
+
+#: .\templates\mpsapps\portfolio.html:14
+msgid ""
+"Improvements of the Timor-Leste's road network is one of the priorities to "
+"diversify the economy"
+msgstr ""
+"Hadiak dalan sira iha Timor-Leste sai hanesan prioridade ida hodi bele "
+"diversifika ekonomia"
+
+#: .\templates\mpsapps\portfolio.html:15
+msgid "AIRPORTS"
+msgstr "AEROPORTO"
+
+#: .\templates\mpsapps\portfolio.html:16
+msgid "Connecting Timor-Leste to the world is crucial for the economic growth"
+msgstr "Liga Timor-Leste ba mundu ne'e krusiál ba kresimentu ekonomia"
+
+#: .\templates\mpsapps\portfolio.html:17
+msgid "BRIDGES"
+msgstr "PONTES"
+
+#: .\templates\mpsapps\portfolio.html:18
+msgid ""
+"One of the programs with an intensive investment and as an integral part in "
+"improving the road network"
+msgstr ""
+"Programa ida ne'e ho investimentu intensivu no hanesan parte integrante hodi "
+"hadiak dalan"
+
+#: .\templates\mpsapps\programas.html:7
+msgid "Page is Under Construction"
+msgstr "Pájina Iha Hela Konstrusaun"
+
+#: .\templates\mpsapps\programas.html:10
+#, fuzzy
+#| msgid "Page is Under Construction"
+msgid "Page is Under Construction!"
+msgstr "Pájina Iha Hela Konstrusaun!"
+
+#: .\templates\mpsapps\underconstruction.html:4
+msgid "Welcome to my site."
+msgstr ""
+
+#: .\templates\shared\base.html:16
+#, fuzzy
+#| msgid "Major Project Secretariat"
+msgid "Home- Major project Secretariat"
+msgstr "Secretariado Grandes projetos"
+
+#: .\templates\shared\footer.html:7
+msgid "Our Contact"
+msgstr "Ami nia kontaktu"
+
+#: .\templates\shared\footer.html:9 .\templates\shared\navbar.html:4
+msgid "Major Project Secretariat"
+msgstr "Secretariado Grandes projetos"
+
+#: .\templates\shared\footer.html:28
+msgid "Quick Links"
+msgstr "Link Lais"
+
+#: .\templates\shared\footer.html:33
+msgid "Goverment"
+msgstr "Governo"
+
+#: .\templates\shared\footer.html:37
+msgid "Career"
+msgstr "Kareira"
+
+#: .\templates\shared\footer.html:38
+msgid "Contact Us"
+msgstr "Kontaktu Ami"
+
+#: .\templates\shared\footer.html:44
+msgid "References"
+msgstr "Referensia"
+
+#: .\templates\shared\footer.html:54
+msgid "FS Guideline"
+msgstr "Guiaun FS"
+
+#: .\templates\shared\navbar.html:11
+msgid "Home"
+msgstr "Uma"
+
+#: .\templates\shared\navbar.html:17
+msgid " About"
+msgstr "Kona ba"
+
+#: .\templates\shared\navbar.html:20
+msgid "Secreatariat"
+msgstr "Sekretariadu"
+
+#: .\templates\shared\navbar.html:21
+msgid "Fund"
+msgstr "Fundu"
+
+#: .\templates\shared\navbar.html:28
+msgid "Team"
+msgstr "Ekipa"
+
+#: .\templates\shared\navbar.html:36
+msgid "Payment Process"
+msgstr "Prosesu pagamentus"
+
+#: .\templates\shared\navbar.html:37
+msgid "Visibility Study"
+msgstr "Estudu Viabilidade"
+
+#: .\templates\shared\navbar.html:38
+msgid "Project Appraisal"
+msgstr "Avaliasaun projetus"
+
+#: .\templates\shared\navbar.html:39
+msgid "Program"
+msgstr "Programa"
+
+#: .\templates\shared\navbar.html:40
+msgid "Quarter Report"
+msgstr "Relatoriu Trimestral"
+
+#: .\templates\shared\navbar.html:46
+msgid "Contact"
+msgstr "Kontaktu"

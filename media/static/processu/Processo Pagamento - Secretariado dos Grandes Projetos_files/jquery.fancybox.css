@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sekretariadu ba Projetu Bo'ot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="http://themesplay.com" />
+    <!-- css -->
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" />
+    <link href="/Content/jquery.fancybox.css" rel="stylesheet" />
+    <link href="/Content/jcarousel.css" rel="stylesheet" />
+    <link href="/Content/flexslider.css" rel="stylesheet" />
+    <link href="/Script/js/owl-carousel/owl.carousel.css" rel="stylesheet" />
+    <link href="/Content/style.css" rel="stylesheet" />
+    <!--<link href="/static/css/program-menu/progMenu.css" rel="stylesheet" />-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/Content/beautify.css" rel="stylesheet" /><!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
+    <div id="wrapper" class="home-page">
+        <!-- start header -->
+        <header>
+            <div class="navbar navbar-default navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/pt/index">FI-SGP</a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-wrapper">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-fixed-top">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="/pt/index"><span class="text-primary">FI-SGP</span></a>
+                            </div>
+                            <div id="navbar" class="navbar-collapse collapse">
+                                <ul class="nav navbar-nav pull-right" style="padding:20px;">
+                                    <a href="/tt/index" class="btn btn-xs btn-danger"><span class="glyphicon"></span>Tétun</a>
+                                    <a href="/pt/index" class="btn btn-xs btn-success"><span class="glyphicon"></span>Português</a>
+                                    <a href="/en/index" class="btn btn-xs btn-primary"><span class="glyphicon"></span>English</a>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+        <section id="inner-headline">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="pageTitle">Error</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="content">
+            <div class="container">
+                <div class="about">
+                    <section class="features">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div>
+                                    <h2>Page Not Found!</h2>
+                                    <p>This page does not exist!</p>
+                                    <br />
+                                    <div class="under-construction-img">
+                                        <img class="img-responsive" src="/Images/img/404-not-found-nathan-dumlao.jpg" alt="Photo by Nathan Dumlao on Unsplash">
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </section>
+                    <br>
+                </div>
+            </div>
+        </section>
+        <!-- start footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="widget">
+                            <h5 class="widgetheading">Contact</h5>
+                            <address>
+                                <strong>Secretariado dos Grandes Projetos Major Project Secretariat</strong><br>
+                                Edifício 5, Palácio do Governo<br>
+                                23 Rua de Formosa, Colmera<br>
+                                Díli, Timor-Leste
+                            </address>
+                            <p>
+                                <i class="icon-phone"></i> (+670) 3311 001 <br>
+                                <i class="icon-envelope"></i> sgpinfo@sgp.tl
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sub-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-1">
+                            <div class="copyright">
+                                <!--<p><span>&copy; Bluez 2018 All right reserved. By </span><a href="http://themesplay.com" target="_blank">ThemesPlay</a></p>-->
+                                <img class="img-responsive" src="/Images/img/rdtl-logo-2.png" alt="RDTL Icon">
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="copyright">
+                                <img class="img-responsive" src="/Images/img/sgp-icon.png" alt="SGP Icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </div>
+    <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+    <!-- javascript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/Scripts/js/jquery.js"></script>
+    <script src="/Scripts/js/jquery.easing.1.3.js"></script>
+    <script src="/Scripts/js/bootstrap.min.js"></script>
+    <script src="/Scripts/js/jquery.fancybox.pack.js"></script>
+    <script src="/Scripts/js/jquery.fancybox-media.js"></script>
+    <script src="/Scripts/js/portfolio/jquery.quicksand.js"></script>
+    <script src="/Scripts/js/portfolio/setting.js"></script>
+    <script src="/Scripts/js/jquery.flexslider.js"></script>
+    <script src="/Scripts/js/animate.js"></script>
+    <script src="/Scripts/js/custom.js"></script>
+    <script src="/Scripts/js/timeline.js"></script>
+    <script src="/Scripts/js/owl-carousel/owl.carousel.js"></script>
+</body>
+</html>

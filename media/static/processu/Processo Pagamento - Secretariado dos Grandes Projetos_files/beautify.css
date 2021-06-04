@@ -1,0 +1,37 @@
+
+.dropdown-menu>li>a {
+    color: #6fade2;
+}
+
+.dropdown-toggle:focus {
+    color:#15A8EE !important;
+}
+
+.slider-background {
+    background-color: rgba(0, 0, 0, 0.25);
+
+}
+
+.under-construction-img {
+    width: 60%;
+}
+
+.datelimit {
+    color:#e21455;
+    font-weight:bold;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 500px) {
+  body {
+    
+  }
+
+  .IFPortfolioDescription {
+      padding: 15px 15px 100px 15px;
+  }
+
+  .under-construction-img {
+    width: 100%;
+}
+}

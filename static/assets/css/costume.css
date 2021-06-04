@@ -1,0 +1,83 @@
+#carrousel{
+    margin-top: 20px;
+}
+
+#banner{
+    margin-top: -62px
+}
+
+.section-language a{
+  padding: 6em 0 1em 0;
+  position: relative; 
+  left: 600px;
+}
+
+
+img.staff{
+    width: 20%;
+}
+.margin-letter h3 {
+   margin: 3px;
+}
+
+/*Hover effect*/
+
+.hovereffect{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: red;
+  }
+  
+  .hovereffect:hover .overlay {
+    opacity: 1;
+  }
+  
+  .icon-hover {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .icon-hover p{
+      text-align: center;
+      font-size: 14px;
+
+  }
+  @media screen and (max-width: 1280px) {
+  .section-language a{
+    padding: 6em 0 1em 0;
+    position: relative; 
+    left: 860px;
+  }
+}
+  @media screen and (max-width: 736px) {
+    .section-language a{
+      padding: 6em 0 1em 0;
+      position: relative; 
+      left: 110px;
+    }
+} 
