@@ -1,0 +1,23 @@
+{% extends 'shared/base.html'%}
+  {% block section %}
+        <section>
+              {{sobre_cafi.konteudu |safe }}
+        </section>
+        <section>
+            <div class="row">
+              {% for staff in membro_cafi%}
+              {%if staff.status%}
+              <div class="col-lg-3 text-center">
+                <img class="image img-responsive" src="{{staff.image.url}}" alt="">
+                <h3>{{staff.naran}}</h3>
+                <p> {{staff.title}}</p>
+              </div>
+              {% endif %}
+              {% endfor %}
+            </div>
+        </section>
+  {% endblock %}
+  {% block other_section%}
+  {% endblock %}
+
+ 

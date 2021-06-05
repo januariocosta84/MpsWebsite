@@ -1,0 +1,26 @@
+{% extends 'shared/base.html' %}
+{% load i18n %}
+{% block section%}
+    <section>
+        <h2>PROGRAMAS</h2>
+      {{info_programas.konteudu|safe}}
+    </section>
+
+       <section>
+                    <div class="row mt-1">
+                        {%for p in programas%}
+                            <div class="col-lg-3">
+                                    <div class="hovereffect">
+                                            <img src="{{p.image.url}}" alt="Avatar" class="image">
+                                            <div class="overlay">
+                                                <a href="" class="icon-hover" title="{{p.title}}">
+                                                    <p>Open</p>
+                                                </a>
+                                            </div>
+                                    </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+        </section>
+    		
+    {% endblock %}

@@ -1,0 +1,77 @@
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+<nav class="navbar navbar-expand-md  navbar-dark badge-dark fixed-top custom-toggler">
+          <a class="navbar navbar-brand text-uppercase" href="{% url 'home'%}">{%trans 'Major Project Secretariat'%}</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link active" href="{% url 'home'%}"><i class="fas fa-home"></i>{% trans 'Home'%}</a>
+                  </li>
+                  <li class="nav-item dropdown">
+  
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fas fa-info"></i>{% trans ' About'%}
+                      </a>
+                      <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="{%url 'sobresgp' %}">{%trans 'Secreatariat'%}</a>
+                          <a class="dropdown-item" href="{% url 'cafi' %}"></i> {%trans 'Fund'%}</a>
+                      </div>
+  
+                  </li>
+                  
+                  <li class="nav-item">
+                      <a class="nav-link" href="{% url 'sobresgp' %}"><i
+                              class="fas fa-user-friends"></i>{%trans 'Team'%}</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fas fa-briefcase" aria-hidden="true"></i>Portfolio
+                      </a>
+                      <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="{%url 'processu'%}"> {%trans 'Payment Process'%}</a>
+                          <a class="dropdown-item" href="{% url 'estudo'%}">{% trans 'Visibility Study'%}</a>
+                          <a class="dropdown-item" href="{% url 'avaliasaun' %}"></i>{%trans 'Project Appraisal'%}</a>
+                          <a class="dropdown-item sub-menu" href="{% url 'programas' %}">{%trans 'Program'%}</a>
+                          <a class="dropdown-item" href="{% url 'report' %}">{%trans 'Quarter Report'%}</a>
+                      </div>
+  
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="{% url 'contact'%}"><i
+                              class="fas fa-envelope"></i>{% trans 'Contact'%}</a>
+                  </li>
+                  {% get_current_language as LANGUAGE_CODE %}
+                  {% get_available_languages as LANGUAGES %}
+                  {% get_language_info_list for LANGUAGES as languages %}
+                  {% for language in languages %}
+                  {%if language.code == 'tt'%}
+                  <li class="nav-item test"><a href="/{{ language.code }}{{ request.get_full_path|slice:'3:' }}"><img class="img-lingua"
+                               src="/media/static/lingua/tl.png" alt="">TL</a></li>
+                  {% elif language.code == 'pt'%}
+                  <li class="nav-item test"><a class="" href="/{{ language.code }}{{ request.get_full_path|slice:'3:' }}"><img class="img-lingua"
+                              src="/media/static/lingua/pt-pt.png" alt="">PT</a></li>
+                  {% else %}
+                  <li class="nav-item test">
+                      <a href="/{{ language.code }}{{ request.get_full_path|slice:'3:' }}"><img class="img-lingua"
+                             src="/media/static/lingua/en.png" alt="">EN</a></li>
+                  {% endif %}
+                  {% endfor %}
+                  <!-- <li class="nav-item">
+                          <a class="nav-link" href="/{{ language.code }}{{ request.get_full_path|slice:'3:' }}"
+                              class="{% if language.code == LANGUAGE_CODE %}
+                              selected
+                               {% endif %}"
+                              lang="{{ language.code }}"> {{ language.name_local }} 
+                          </a>
+                  </li>
+                -->
+                  <!-- <li class="nav-item"><a class="nav-link" href="/{{ language.code }}{{ request.get_full_path|slice:'3:' }}"><img class="img-lingua" src="/media/static/lingua/pt-pt.png" alt="">PT</a></li>  -->
+  
+              </ul>
+  </div>
+</nav>

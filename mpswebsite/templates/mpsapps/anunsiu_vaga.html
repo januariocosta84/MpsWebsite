@@ -1,0 +1,17 @@
+<!--Jumbotron-->
+{% load i18n %}
+<section>
+        <h2>{%trans 'Information and Announcement'%}</h2>
+        <hr>
+        {% for anunsiu in anunsius%}
+        {% if anunsiu%}
+        <h3>
+            <li><a href="anunsiu/{{anunsiu.slug}}">{{anunsiu.title}} ({{anunsiu.data|date:"d/m/Y"}})</a></li>
+        </h3>
+        {% else %}
+            <p>There is no Announcement Yet</p>
+        {% endif %}
+
+        {%endfor%}
+
+</section>

@@ -1,0 +1,20 @@
+{% extends 'shared/base.html' %}
+{% load i18n %}
+{% block section %}
+
+            <h1 class="lead">{% trans 'Page is Under Construction' %}</h1>
+            <hr>
+            <img class="img-responsive myimage" src="/media/undeconstruction/under_construction.JPG" alt="">
+            <p class="lead">{% trans 'Page is Under Construction!' %}</p>
+
+            <form action="">
+              <label for="">Naran:</label>
+              <input type="text">
+              <label for="">Email:</label>
+              <input type="email">
+              <label for="">Assunto:</label>
+              <textarea rows="" cols=""></textarea>
+            </form>
+            <button>Enviar</button>
+ 
+{% endblock %}

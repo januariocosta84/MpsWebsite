@@ -1,0 +1,17 @@
+<!--Jumbotron-->
+{% load i18n %}
+<div class="container">
+    <div id="jumbotro-id">
+        <div class="jumbotron-fluid ">
+            <div class="col-sx-12 col-sm-12 col-md-9 col-lg-9 col-lg-9">
+                <h2 class="section-heading">{%trans 'Information and Announcement'%}</h2>
+                {% for anunsiu in anunsius%}
+                <li>
+                <a href="anunsiu/{{anunsiu.slug}}">{{anunsiu.title}} ({{anunsiu.data|date:"d/m/Y"}})</a>
+                </li>
+                {%endfor%}  
+            </div>
+        </div>
+    </div>
+    
+</div>

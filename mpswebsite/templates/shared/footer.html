@@ -1,0 +1,71 @@
+  <!-- start footer -->
+  {% load i18n %}
+<footer class="badge-dark ">
+    <div class="container ">
+        <div class="row text-center">
+            <div class="col-lg-4">
+                <h5 class="widgetheading">{%trans 'Our Contact'%}</h5>
+                <hr>
+                <strong>{% trans 'Major Project Secretariat' %}</strong><br>
+                <address>
+                    Edificio 5, Palácio do Governo<br>
+                    23 Rua de Formosa, Colmera<br>
+                    Dili, Timor-Leste <br>
+                </address>
+                <address>
+                    <strong>
+                        <i class="fas fa-user"></i>
+                        (+670) 3311 001
+                    </strong>
+                    <br>
+                    <strong>
+                        <a href="mailto:info@sgp.tl"> <i class="fas fa-envelope"></i> info@sgp.tl</a>
+                    </strong>
+                </address>
+            </div>
+            <div class="col-lg-3">
+
+                <h5 class="widgetheading">{% trans 'Quick Links'%}</h5>
+                <hr>
+                <ul class="link-list">
+                    <li><a target="_blank" href="http://adn.gov.tl/">ADN</a></li>
+                    <li><a target="_blank" href="http://www.cna.gov.tl/en/">CNA</a></li>
+                    <li><a target="_blank" href="http://timor-leste.gov.tl/?lang=en">{% trans 'Goverment'%}</a></li>
+                    <li><a target="_blank" href="https://www.adb.org/countries/timor-leste/main">ADB</a></li>
+                    <li><a target="_blank" href="https://www.jica.go.jp/easttimor/english/office/index.html">JICA</a>
+                    </li>
+                    <li><a href="{% url 'contact'%}">{% trans 'Career'%}</a></li>
+                    <li><a href="{% url 'contact'%}">{% trans 'Contact Us'%}</a></li>
+                </ul>
+
+            </div>
+            <div class="col-lg-3">
+
+                <h5 class="widgetheading">{% trans 'References'%}</h5>
+                <hr>
+                <ul class="link-list">
+                    <li><a target="_blank"
+                            href="http://timor-leste.gov.tl/wp-content/uploads/2011/07/Timor-Leste-Strategic-Plan-2011-20301.pdf">SDP</a>
+                    </li>
+                    <li><a target="_blank" href="#">Decree-Law No. 13/2016</a></li>
+                    <li><a target="_blank"
+                            href="https://www.mof.gov.tl/wp-content/uploads/2011/09/Petroleum-Fund-Law-English.pdf">Petroleum
+                            Fund</a></li>
+                    <li><a target="_blank" href="/media/uploads/2021/05/21/fs2020.pdf">{% trans 'FS Guideline'%}</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="col-md-1">
+                <img class="img-responsive" src="/media/static/images/rdtl-logo-2.png" alt="RDTL Icon">
+            </div>
+            <div class="col-md-2 icon-image">
+                <img class="img-responsive" src="/media/static/images/sgp-icon.png" alt="SGP Icon">
+            </div>
+        </div> -->
+
+    </div>
+</footer>
+<!-- end footer -->

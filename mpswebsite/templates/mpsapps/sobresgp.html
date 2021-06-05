@@ -1,0 +1,28 @@
+  {% extends 'shared/base.html'%}
+  
+  {% block section%}
+
+  <section>
+      {{sobre_sgp.konteudu |safe }}
+  </section>
+ 
+  <section>
+      <div class="row">
+          {% for staff in staff_sgp%}
+          {%if staff.status%}
+          <div class="col-lg-3 m-3 text-center">
+                    <img class="image" src="{{staff.image.url}}" alt="{{staff.naran}}">
+                    <h3>{{staff.naran}}</h3>
+                    <p>{{staff.title}}</p>
+          </div>  
+            {% endif %}
+            {% endfor %} 
+      </div>  
+  </section>
+      
+  {%endblock%}
+  {% block other_section%}
+  {% endblock %}
+
+
+ 
