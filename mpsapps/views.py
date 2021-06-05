@@ -90,7 +90,7 @@ class ProgramView(TemplateView):
 class ProgramDetails(DetailView):
     context_object_name ='programas_details'
     model = Programas
-    template_name ='mpsapps/details_program.html'
+    template_name ='mpsapps/programa_details.html'
 
 class ReportView(TemplateView):
     template_name = 'mpsapps/under_construction.html'
