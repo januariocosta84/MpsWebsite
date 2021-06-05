@@ -3,7 +3,7 @@ from .views import (HomeView, ProcessuView,
 EstudoView,AvaliasaunView,ProgramView, ReportView,
 SobreIfView, NoticiasDetailView, AnunsiuDetailView,
 ContactView,
-SobreCafiView,)
+SobreCafiView,ProgramDetails)
 
 urlpatterns = [
     path('', HomeView.as_view(), name='home'),
@@ -14,7 +14,7 @@ urlpatterns = [
     path('estudo/', EstudoView.as_view(), name='estudo'),
     path('avaliasaun/', AvaliasaunView.as_view(), name='avaliasaun'),
     path('programas/', ProgramView.as_view(), name='programa'),
-    #path('programas/<slug:slug>', ProgramDetails.as_view(), 'programa_details'), 
+    path('programas/<slug:slug>', ProgramDetails.as_view(), name='programa_details'), 
     path('report/', ReportView.as_view(), name='report'),
     path('secretariado/', SobreIfView.as_view(), name='sobresgp'),
     path('cafi/', SobreCafiView.as_view(), name = 'cafi'),
