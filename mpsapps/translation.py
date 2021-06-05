@@ -38,7 +38,7 @@ class TraduzEstuduViabilidade(TranslationOptions):
 translator.register(EstudoViabialidade, TraduzEstuduViabilidade)
 
 class TraduzProgramas(TranslationOptions):
-    fields = ('title', 'konteudu','slug')
+    fields = ('title', 'konteudu')
 translator.register(Programas, TraduzProgramas)
 
 class TraduzInfoPrograms(TranslationOptions):
