@@ -12,6 +12,9 @@
   left: 600px;
 }
 
+section h2{
+  margin-top: -20px;
+}
 
 img.staff{
     width: 20%;
