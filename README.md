@@ -14,7 +14,10 @@ The purpose of this is the website is to promote all events and information abou
 #How it works \
 1.Clone the file on your local machine \
 2. then inside the root project run the bellow command \
-3. python manage.py run server
+3. python manage.py run server\
+4.Before to run this webapp please install all requirements those are listed on requirements.tx\
+
+
 
 
 **Result of website**
