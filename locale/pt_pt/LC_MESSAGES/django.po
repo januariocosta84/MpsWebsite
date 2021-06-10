@@ -112,7 +112,7 @@ msgstr "Bem vindo mai hau nia website"
 #: .\templates\shared\base.html:47 .\templates\shared\footer.html:9
 #: .\templates\shared\navbar.html:4
 msgid "Major Project Secretariat"
-msgstr "Secretariado dos grande Projetos"
+msgstr "Secretariado dos Grandes Projetos"
 
 #: .\templates\shared\base.html:71
 msgid "Secretariat Services Events"
@@ -212,4 +212,4 @@ msgstr "Secretariado"
 #, fuzzy
 #~| msgid "Major Project Secretariat"
 #~ msgid "Home- Major project Secretariat"
-#~ msgstr "Home - Secretariado dos grande Projetos"
+#~ msgstr "Home - Secretariado dos Grandes Projetos"

@@ -124,7 +124,7 @@ msgstr "Ami nia kontaktu"
 
 #: .\templates\shared\footer.html:9 .\templates\shared\navbar.html:4
 msgid "Major Project Secretariat"
-msgstr "Secretariado Grandes projetos"
+msgstr "Secretariado Grandes Projetos"
 
 #: .\templates\shared\footer.html:28
 msgid "Quick Links"
