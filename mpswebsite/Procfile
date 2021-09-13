@@ -1,0 +1,1 @@
+web gunicorn mpswebsite.wsgi --log-file -
