@@ -34,7 +34,7 @@ print("template dir :", TEMPLATE_DIR)
 SECRET_KEY = 'e2u7k=7@s$o(88(n=qhgcbyveysa+(1ku8g0jz@9qpz!6c(2@l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1','192.168.0.8', 'sgponline.herokuapp.com']
 
@@ -148,6 +148,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
+
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 STATIC_URL = '/static/'
