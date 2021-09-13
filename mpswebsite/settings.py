@@ -36,7 +36,7 @@ SECRET_KEY = 'e2u7k=7@s$o(88(n=qhgcbyveysa+(1ku8g0jz@9qpz!6c(2@l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','192.168.0.8', 'a1a6fec64bf9.ngrok.io']
+ALLOWED_HOSTS = ['127.0.0.1','192.168.0.8', 'sgponline.herokuapp.com']
 
 
 # Application definition
