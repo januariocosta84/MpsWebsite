@@ -1,17 +1,20 @@
 <!--Jumbotron-->
 {% load i18n %}
-<section>
-        <h2>{%trans 'Information and Announcement'%}</h2>
-        <hr>
-        {% for anunsiu in anunsius%}
-        {% if anunsiu%}
-        <h3>
-            <li><a href="anunsiu/{{anunsiu.slug}}">{{anunsiu.title}} ({{anunsiu.data|date:"d/m/Y"}})</a></li>
-        </h3>
-        {% else %}
-            <p>There is no Announcement Yet</p>
-        {% endif %}
+<div>
+    
+    <h3 class="align-center">{%trans 'Information and Announcement'%}</h3>
+    <hr>
+    {% for anunsiu in anunsius%}
+    {% if anunsiu%}
+    <h4>
+        <li><a href="{% url 'anunsiu' anunsiu.slug %}">{{anunsiu.title}} ({{anunsiu.data|date:"d/m/Y"}})</a></li>
+    </h4>
+    {% else %}
+        <p>There is no Announcement Yet</p>
+    {% endif %}
 
-        {%endfor%}
+    {%endfor%}
 
-</section>
+</div>
+
+

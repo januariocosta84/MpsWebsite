@@ -8,7 +8,7 @@ SobreCafiView,ProgramDetails)
 urlpatterns = [
     path('', HomeView.as_view(), name='home'),
     path('events/<slug:slug>', NoticiasDetailView.as_view(), name= 'noticiasdetails'),
-    path('anunsiu/<slug:slug>',AnunsiuDetailView.as_view(), name ='resultado'),
+    path('anunsiu/<slug:slug>',AnunsiuDetailView.as_view(), name ='anunsiu'),
    # path('programas/', ProgramasView.as_view(), name='programas'),
     path('processu/', ProcessuView.as_view(), name='processu'),
     path('estudo/', EstudoView.as_view(), name='estudo'),

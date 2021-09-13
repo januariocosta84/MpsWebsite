@@ -1,8 +1,12 @@
 {% extends 'shared/base.html' %}
 {% block section%}
-
-        <section>
-           {{procesu_pagamento.konteudu|safe}}
-        </section>
+        <div class="container-fluid">
+                <div class="col-md col-lg">
+                        <section>
+                                {{procesu_pagamento.konteudu|safe}}
+                        </section>
+                </div>
+        </div>
+        
       
 {% endblock %}
