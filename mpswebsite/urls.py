@@ -28,12 +28,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('ckeditor/', include('ckeditor_uploader.urls')),
     re_path(r'^media/(?P<path>.*)$', serve, {'document_root':settings.MEDIA_ROOT}),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] 
 urlpatterns = i18n_patterns(
     path('ckeditor/', include('ckeditor_uploader.urls')),
     path('admin/', admin.site.urls),
     path('', include('mpsapps.urls')),
     path('i18n/', include('django.conf.urls.i18n')),
     prefix_default_language=True,
-)
+)+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

@@ -1,0 +1,113 @@
+
+
+@import url('http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700'); 
+@import url('font-awesome.css');  
+@import url('animate.css');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+	color:rgb(5, 3, 3);
+	font-family: 'PT Serif', serif;
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	color: blue
+}
+.container {
+	padding:0 20px 0 20px;
+	position:relative;
+}
+.navbar .navbar-brand{
+	font-size: 15px;
+	color: #2bab0d;
+}
+.circle{
+	height: 512px;
+	width: 512px;
+	margin: 50px;
+	background: #40e0d0;
+	border-radius: 256px;
+}
+
+
+/*
+Start of the navbar
+*/
+ul.link-list li a{
+	color: black;
+}
+
+.img-responsive{
+	padding: 5px;
+	width: 150px;
+}
+
+a.nav-link:hover{
+	background:#2bab0d;
+	border-radius: 50px
+}
+
+.sub-menu .sub-menu-item{
+	list-style: none;
+	display: none;
+	padding: 2px;
+	margin: 2px
+}
+
+.sub-menu .dropdown-item:hover>.sub-menu .sub-menu-item{
+	display: block;
+}
+.btn{
+	font-size: 10px;
+	margin: 7px 7px;
+}
+/*
+end of the navbar
+*/
+p {
+	margin-bottom: 0px;
+	font-size: 14px;
+	color: #666666;
+	line-height: 30px;
+}
+
+footer {
+    background-color: #40e0d0;
+    text-align: justify;
+} 
+
+ul.link-list li {
+    margin: 0;
+    padding: 2px 0 2px 0;
+    list-style: none;
+}
+
+@media(max-width:1000px){
+	h1{
+		margin-top: 20px;
+		font-size: 20px;
+		text-align: center
+	}
+	.p{
+		text-align: justify
+	}
+	.navbar navbar-collapse{
+		font-size: 5px
+	}
+	.btn{
+		padding-left: 10px;
+		float: left;
+		position: relative;
+		right: 40px;
+	}
+	.navbar .navbar-brand{
+		font-size: 15px;
+		color: #2bab0d;
+	}
+	.nav-link{
+		font-size: 15px;
+		color: #000;
+	}
+}

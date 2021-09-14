@@ -12,7 +12,8 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+
 #from django.utils.translation import ugettext_lazy as _
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -34,7 +35,7 @@ print("template dir :", TEMPLATE_DIR)
 SECRET_KEY = 'e2u7k=7@s$o(88(n=qhgcbyveysa+(1ku8g0jz@9qpz!6c(2@l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG =False
 
 ALLOWED_HOSTS = ['127.0.0.1','192.168.0.8', 'sgponline.herokuapp.com']
 

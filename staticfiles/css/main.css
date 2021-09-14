@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color:rgb(19, 4, 10)
+}
+nav{
+	background-color: #3f3f3f!important;
+	color: #ffffff	
+}
+.navbar-bg{
+	background-color: brown!important
+}
+
+.navbar{
+	padding: .8rem;
+	text-transform:capitalize;
+}
+
+.navbar-brand{
+	font-weight: 600;
+	text-transform: capitalize
+}
+.navbar-nav li {
+	padding-right: 2px;
+}
+.nav-link{
+	font-size: 1.1em!important
+}
+i.fas{
+	margin-right:5px;
+}
+.dropdown-submenu{
+	display: none
+}
+.sub-menu:hover.dropdown-submenu{
+	display: block
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+footer{
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
+	width: 100%;
+	height: 50%;
+}
+footer .widgetheading {
+	position: relative;
+	font-weight: bold;
+	color: blue
+}
+.widgetheading {
+    width: 100%;
+	padding: 0;
+	color: #ffffff
+}
+address, p, strong{
+	color: #ffffff
+}
+.link-list{
+	padding: 10px
+}
+.link-list li{
+	list-style: none;
+	text-decoration: none
+}
+.link-list li a{
+	color: #ffffff
+}
+p .fas{
+	color: #ffffff
+}
+.icon-image{
+	position: relative;
+	left: 50px;
+	top: 20px
+}
