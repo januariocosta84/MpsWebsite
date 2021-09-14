@@ -43,16 +43,14 @@
 
                 </div>
             </section>
-        </div>     
+        </div> 
+        {% block other_section%}
+        {% include 'mpsapps/noticias.html'%}
+        {% endblock %}
+    
+        {% block section%}
+        {% endblock %}    
 </div>
-
-    {% block other_section%}
-    {% include 'mpsapps/noticias.html'%}
-    {% endblock %}
-
-    {% block section%}
-    {% endblock %}
-
 </div>
 
 {% endblock %}
