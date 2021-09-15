@@ -25,7 +25,9 @@ img.staff{
    margin: 3px;
 }
 
-
+.language{
+  flex: 20px;
+}
 
 /*Hover effect*/
 
