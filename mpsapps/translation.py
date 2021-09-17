@@ -3,7 +3,7 @@ from django.utils.translation import gettext_lazy
 from modeltranslation.translator import translator, register, TranslationOptions
 from .models import (Anunsiu, Noticias, 
 SgpStaff, FundoModel,Programas,
-SgpModel, PorcesuPagamento,EstudoViabialidade, CafiMembro, InfoProgramas)
+SgpModel, PorcesuPagamento,EstudoViabialidade, CafiMembro, InfoProgramas, Avaliasaun)
 
 class TraduzAnunsiu(TranslationOptions):
     fields =('title', 'konteudu')
@@ -44,3 +44,7 @@ translator.register(Programas, TraduzProgramas)
 class TraduzInfoPrograms(TranslationOptions):
     fields =('title', 'konteudu')
 translator.register(InfoProgramas, TraduzInfoPrograms)
+
+class TraduzAvaliasaun(TranslationOptions):
+    fields =('title', 'konteudu')
+translator.register(Avaliasaun, TraduzAvaliasaun)
