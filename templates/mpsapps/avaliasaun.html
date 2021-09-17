@@ -1,9 +1,9 @@
 {%extends 'shared/base.html'%}
 {%block section %}
     <section>
-        {%for apraise in apraise%}
-        {%if apraise%}
-        {{apraise.konteudu|safe}}
+        {%for apraises in apraise%}
+        {%if apraises%}
+        {{apraises.konteudu|safe}}
         {%else%}
         <h2>No information added</h2>
         {% endif%}
