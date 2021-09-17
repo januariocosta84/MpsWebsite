@@ -76,7 +76,7 @@ class AvaliasaunView(TemplateView):
 
 
 class ProgramView(TemplateView):
-
+#avaliasaun
     template_name='mpsapps/programa.html'
     def get_context_data(self, **kwagrs):
         context = super().get_context_data(**kwagrs)
